@@ -6,7 +6,7 @@ The goal of this project was to refactor a past Chuck Norris MVC style applicati
 ## Components
 
 ### `ChuckResponse`
-Renders the data returning fromt he API.
+Renders the data returning from the API.
 
 ### `Header`
 Renders the type of quote the user selected.
