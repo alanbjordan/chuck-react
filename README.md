@@ -1,3 +1,20 @@
+## Chuck-React Project
+
+This project is a Chuck Norris API React Application.
+The goal of this project was to refactor a past Chuck Norris MVC style application into a React application. 
+
+## Components
+
+### `ChuckResponse`
+Renders the data returning fromt he API.
+
+### `Header`
+Renders the type of quote the user selected.
+
+### `Quote`
+Renders the selection options and submit button.
+
+## React Start-up Information:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
