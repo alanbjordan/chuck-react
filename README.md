@@ -1,7 +1,7 @@
 ## Chuck-React Project
 
 This project is a Chuck Norris API React Application.
-The goal of this project was to refactor a past Chuck Norris MVC style application into a React application. 
+The goal of this project is to refactor a past Chuck Norris MVC style application into a React application. 
 
 ## Components
 
