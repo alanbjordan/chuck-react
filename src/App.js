@@ -5,17 +5,15 @@ import ChuckQuote from "./components/ChuckQuote";
 import "./App.css";
 
 export default function App() {
-    const chuckQuote = "Chuck Norris threw a grenade and killed 50 people, then it exploded.";
-    const headerText = "Chuck Norris Quotes"
-    const leadIn = "Chuck Says....."
+
   return (
     <div className="App">
       <div className="wrapper">
-        <Header hText = {headerText}/>
+        <Header/>
         <hr/>
-        <QuoteSelector chuckSays = {leadIn}/>
+        <QuoteSelector/>
         <hr/>
-        <ChuckQuote quote={chuckQuote} category="placeHolder"/>
+        <ChuckQuote category="placeHolder"/>
       </div>
     </div>
   );

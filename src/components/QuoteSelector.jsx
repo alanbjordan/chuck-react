@@ -1,8 +1,11 @@
 import React, { Component } from "react";
 
 class QuoteSelector extends Component {
+  state = {
+    chuckSays: "Chuck Says..."
+  }
   render() {
-    const { chuckSays } = this.props;
+    const { chuckSays } = this.state;
     return (
       <div className="quote">
         <br/>
