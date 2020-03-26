@@ -2,7 +2,15 @@ import React, { Component } from "react";
 
 class ChuckQuote extends Component {
   state = {
-    quote: "Chuck Norris threw a grenade and killed 50 people, then it exploded."
+    quote: "Requesting a Chuck Norris quote..."
+  }
+
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({
+        quote: "Chuck Norris threw a grenade and killed 50 people, then it exploded."
+      })
+    }, 3000);
   }
 
   render() {
